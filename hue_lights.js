@@ -239,7 +239,7 @@ function getHueUser(server, port)
      tryToMakeUser(server, port);
      
      //bypass pairing for testing
-     //setUpCookie(server, port, "76EVqjrSCgtHIZNpZACeY-4sLIHj7pwjdvEnWdX5");
+     //setUpCookie(server, port, "");
 }
      
 function setUpCookie(server, port, username)
@@ -371,7 +371,7 @@ function registerExtension()
     },
   };
      var descriptor_unconfiged = {
-     blocks: [ ['w', 'Setup Philips Hue IP %n port %n',                                   'setServer',     "75.67.188.88", "14567"]
+     blocks: [ ['w', 'Setup Philips Hue IP %n port %n',                                   'setServer',     "", "80"]
               ],
      menus: { },
      };
